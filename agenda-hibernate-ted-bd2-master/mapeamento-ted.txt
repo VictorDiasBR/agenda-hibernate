@@ -1,0 +1,23 @@
+Contatos
+	String nome		-varchar(40) 	not null
+	String telefones 	-char(11)	not null
+	Endereco enderecos	-String		not null
+
+Endereco
+	TipoEndereco 	- char(3)	- not null
+	Estado estado	- char(2)	- not null
+	String sigla	- char(2)	- not null
+	String nome	- varchar(40)	- not null
+
+TipoEndereco
+	COMERCIAL(1), RESIDENCIAL(2) 
+
+Cidade
+	String sigla	- char(3)	- not null
+	String nome	- varchar(40)	- not null
+	Estado estado	- char(2)	- not null
+
+
+Estado
+	String sigla	- char(2)	- not null
+	String nome	- varchar(40)	- not null
